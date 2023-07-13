@@ -1,0 +1,303 @@
+[
+    {
+      "link": "https://www.jet.de/tankstellen/dortmund/kloennestrasse-90",
+      "stacja": "JET",
+      "region": "Hamburg",
+      "adres": "Kloennestraße 90, 44143, Dortmund"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND111190",
+      "stacja": "Total",
+      "region": "Hamburg",
+      "adres": "Westfalendamm 272, 44141, Dortmund-Mitte"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/dortmund/hermannstrasse-182",
+      "stacja": "JET",
+      "region": "Hamburg",
+      "adres": "Hermannstrasse 182,  44263, Dortmund-Hörde"
+    },
+    {
+      "link": "https://store.totalenergies.de/en_GB/ND036988",
+      "stacja": "TOTAL",
+      "region": "Hamburg",
+      "adres": "Cuxhavener Str. 380, 21149, Hamburg"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND005579",
+      "stacja": "TOTAL",
+      "region": "Hamburg",
+      "adres": "Bornstraße 266, 44145, Dortmund"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND020487",
+      "stacja": "TOTAL",
+      "region": "Berlin",
+      "adres": "Margarete-Sommer-Straße 2, 10407, Berlin"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND020388",
+      "stacja": "TOTAL",
+      "region": "Berlin",
+      "adres": "Storkower Str. 174, 10369, Berlin"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND020438",
+      "stacja": "TOTAL",
+      "region": "Berlin",
+      "adres": "Holzmarktstraße 36-42, 10243, Berlin"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/berlin/kreuzbergstrasse-41",
+      "stacja": "JET",
+      "region": "Berlin",
+      "adres": "Kreuzbergstraße 41, 10965, Berlin"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND020438",
+      "stacja": "TOTAL",
+      "region": "Berlin",
+      "adres": "Holzmarktstraße 36-42, 10243, Berlin"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/stuhr/delmenhorster-str-208",
+      "stacja": "JET",
+      "region": "Bremen",
+      "adres": "Delmenhorster Str. 208, 28816, Stuhr"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND040154",
+      "stacja": "TOTAL",
+      "region": "Bremen",
+      "adres": "Europaallee 5A, 28309, Bremen"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/bremen/vahrer-str-253",
+      "stacja": "JET",
+      "region": "Bremen",
+      "adres": "Vahrer Str. 253, 28329, Bremen"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND038430",
+      "stacja": "TOTAL",
+      "region": "Bremen",
+      "adres": "An d. Autobahn 4, 28876, Oyten"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND036814",
+      "stacja": "TOTAL",
+      "region": "Bremen",
+      "adres": "Oberneulander Heerstraße 38, 28355, Bremen"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/magdeburg/kastanienstrasse-8",
+      "stacja": "JET",
+      "region": "Magdeburg",
+      "adres": "Kastanienstraße 8, 39124, Magdeburg"
+    },
+    {
+      "link": "https://store.totalenergies.nl/en_GB/ND027433",
+      "stacja": "TOTAL",
+      "region": "Magdeburg",
+      "adres": "Barleber Ch 3, 39126, Magdeburg"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND027284",
+      "stacja": "TOTAL",
+      "region": "Magdeburg",
+      "adres": "Albert-Vater-Straße 30, 39108, Magdeburg"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND038141",
+      "stacja": "TOTAL",
+      "region": "Magdeburg",
+      "adres": "Glindenberger Weg 3, 39126, Magdeburg"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND027391",
+      "stacja": "TOTAL",
+      "region": "Magdeburg",
+      "adres": "Hermann-Hesse-Straße 1, 39118, Magdeburg"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/witten/dortmunder-str-80",
+      "stacja": "JET",
+      "region": "Dortmund",
+      "adres": "Dortmunder Str. 80, 58453, Witten"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/dortmund/provinzialstrasse-229",
+      "stacja": "JET",
+      "region": "Dortmund",
+      "adres": "Provinzialstraße 229, 44388, Dortmund"
+    },
+    {
+      "link": "https://store.totalenergies.nl/en_GB/ND111190",
+      "stacja": "TOTAL",
+      "region": "Dortmund",
+      "adres": "Westfalendamm 272, 44141, Dortmund"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND124360",
+      "stacja": "TOTAL",
+      "region": "Dortmund",
+      "adres": "Hannöversche Str. 52a, 44143, Dortmund"
+    },
+    {
+      "link": "https://store.totalenergies.de/en_GB/ND000867",
+      "stacja": "TOTAL",
+      "region": "Dortmund",
+      "adres": "Am Remberg 94, 44269, Dortmund"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND000965",
+      "stacja": "TOTAL",
+      "region": "Kolonia",
+      "adres": "Holzmarkt 49, 50676, Köln"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/koeln/clevischer-ring-49",
+      "stacja": "JET",
+      "region": "Kolonia",
+      "adres": "Clevischer Ring 49, 51063, Köln"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/koeln/widdersdorfer-str-165",
+      "stacja": "JET",
+      "region": "Kolonia",
+      "adres": "Widdersdorfer Str. 165, 50825, Köln"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND000846",
+      "stacja": "TOTAL",
+      "region": "Kolonia",
+      "adres": "Berliner Str. 25, 51377, Leverkusen"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND000966",
+      "stacja": "TOTAL",
+      "region": "Kolonia",
+      "adres": "Kapellenstraße 29, 50997, Köln"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND033811",
+      "stacja": "TOTAL",
+      "region": "Erfurt",
+      "adres": "Mittelhäuser Str. 69, 99089, Erfurt"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/erfurt/august-roebling-str-7",
+      "stacja": "JET",
+      "region": "Erfurt",
+      "adres": "August-Röbling-Straße 7, 99091, Erfurt"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND037663",
+      "stacja": "TOTAL",
+      "region": "Erfurt",
+      "adres": "Augsburger Str. 2, 99091, Erfurt"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND033498",
+      "stacja": "TOTAL",
+      "region": "Erfurt",
+      "adres": "Binderslebener Landstraße 98, 99092, Erfurt"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND022988",
+      "stacja": "TOTAL",
+      "region": "Erfurt",
+      "adres": "Schlachthofstraße 14, 99085, Erfurt"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/frankfurt/borsigallee-29",
+      "stacja": "JET",
+      "region": "Frankfurt",
+      "adres": "Borsigallee 29, 60388, Frankfurt am Main"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/offenbach/bieberer-str-255",
+      "stacja": "JET",
+      "region": "Frankfurt",
+      "adres": "Bieberer Str. 255, 63071, Offenbach am Main"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND000169",
+      "stacja": "TOTAL",
+      "region": "Frankfurt",
+      "adres": "Heerstraße 78, 60488, Frankfurt am Main"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND036871",
+      "stacja": "TOTAL",
+      "region": "Frankfurt",
+      "adres": "An d. Bornhohl 56, 60437, Frankfurt am Main"
+    },
+    {
+      "link": "https://store.totalenergies.de/en_GB/ND133450",
+      "stacja": "TOTAL",
+      "region": "Frankfurt",
+      "adres": "Industriestraße 19, 64546, Mörfelden-Walldorf"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/itzehoe/edendorferstrasse-127",
+      "stacja": "JET",
+      "region": "Freiburg",
+      "adres": "Edendorfer Str. 127, 25524, Itzehoe"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND039834",
+      "stacja": "TOTAL",
+      "region": "Freiburg",
+      "adres": "Olof-Palme-Allee 5, 25541, Brunsbüttel"
+    },
+    {
+      "link": "https://store.totalenergies.fr/en_FR/ND000180",
+      "stacja": "TOTAL",
+      "region": "Freiburg",
+      "adres": "Gundelfinger Str. 27, 79108, Freiburg im Breisgau"
+    },
+    {
+      "link": "https://store.totalenergies.nl/en_NL/ND180680",
+      "stacja": "TOTAL",
+      "region": "Freiburg",
+      "adres": "Tunibergstraße 2, 79189, Bad Krozingen"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND000855",
+      "stacja": "TOTAL",
+      "region": "Freiburg",
+      "adres": "In den Engematten 2, 79286, Glottertal"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/muenchen/dachauer-str-240",
+      "stacja": "JET",
+      "region": "Monachium",
+      "adres": "Dachauer Str. 240, 80992, München"
+    },
+    {
+      "link": "https://www.jet.de/tankstellen/muenchen/verdistrasse-142",
+      "stacja": "JET",
+      "region": "Monachium",
+      "adres": "Verdistraße 142, 81247, München"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND037887",
+      "stacja": "TOTAL",
+      "region": "Monachium",
+      "adres": "Detmoldstraße 1, 80935, München"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND039362",
+      "stacja": "TOTAL",
+      "region": "Monachium",
+      "adres": "Moosacher Str. 36, 80809, München"
+    },
+    {
+      "link": "https://store.totalenergies.de/de_DE/ND036699",
+      "stacja": "TOTAL",
+      "region": "Monachium",
+      "adres": "Petuelring 92, 80807, München"
+    }
+  ]
+  
