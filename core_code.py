@@ -7,7 +7,7 @@ from datetime import datetime
 import schedule
 import time
 import logging
-
+import sys
 
 def setup_logging():
     log_file = os.path.join(os.path.dirname(__file__), 'app.log')
@@ -167,17 +167,29 @@ class DataProcessor:
             updated_df.to_csv(self.csv_file_path, index=False, encoding='utf-8-sig')
             logging.info(f"Data appended to existing CSV file: {self.csv_file_path}")
 
+    def create_csv_file_if_not_exists(self):
+        if not os.path.isfile(self.csv_file_path):
+
+            open(self.csv_file_path, 'w').close()
+            logging.info(f"Empty CSV file created: {self.csv_file_path}")
+
+    def process_data(self):
+        self.create_csv_file_if_not_exists()
+        df = self.load_data()
+        if df is not None:
+            logging.debug("Data loaded successfully.")
+            df.to_csv(self.csv_file_path, index=False, encoding="utf-8-sig")  # Ustawienie kodowania na "utf-8-sig"
+            logging.debug("Data processed and saved successfully.")
+
 
 def main():
     logging.info("Main function started.")
 
-    # Zaktualizowane ścieżki do plików
     json_file_path = os.path.join(os.path.dirname(__file__), 'stacje.json')
-    csv_file_path = os.path.join(os.path.dirname(__file__), 'output', 'ceny_paliw.csv')
+    csv_file_path = os.path.join(os.path.dirname(__file__), r'G:\Mój dysk\Statystyka\Dane Bazowe\ceny_paliw', 'ceny_paliw.csv')
 
-    total_url_list, jet_url_list = read_urls_from_stacje_json(json_file_path)
+    total_url_list, jet_url_list = read_urls_from_json(json_file_path)
 
-    # Jeśli nie udało się wczytać wartości z pliku konfiguracyjnego, zakończ skrypt
     if total_url_list is None or jet_url_list is None:
         logging.error("Nie udało się wczytać wymaganych wartości z pliku konfiguracyjnego. Kończenie skryptu.")
         return
@@ -193,9 +205,11 @@ def main():
         logging.debug("Data processed and saved successfully.")
 
     logging.info("Main function completed.")
+    print("kod aktywny")  # Dodany kod
+    sys.stdout.flush()  # Dodany kod
 
 
-def read_urls_from_stacje_json(json_file_path):
+def read_urls_from_json(json_file_path):
     try:
         with open(json_file_path, 'r') as json_file:
             data = json.load(json_file)
@@ -230,6 +244,10 @@ def read_urls_from_stacje_json(json_file_path):
 if __name__ == '__main__':
     setup_logging()
 
+    if len(sys.argv) > 1 and sys.argv[1] == "--disable":
+        print("Kod wyłączony.")
+        sys.exit()
+
     # Ustawienie harmonogramu dla 5 różnych godzin
     schedule.every().day.at("07:00").do(main)
     schedule.every().day.at("10:00").do(main)
@@ -239,4 +257,5 @@ if __name__ == '__main__':
 
     while True:
         schedule.run_pending()
-        time.sleep(1)  # Sleep na 1 sekundę, aby zmniejszyć obciążenie CPU
+        time.sleep(1)
+
